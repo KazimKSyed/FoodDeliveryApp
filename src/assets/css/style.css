@@ -809,7 +809,7 @@ button.w3view-cart {
   color: #c4c4c4;
 }
 .search-hotel form input[type="submit"]{
-  background: url(../images/search.png) no-repeat 13px 11px #1accfd;
+  background: url(./assets/images/search.jpg) no-repeat 13px 11px #1accfd;
   width: 44px;
   height: 39px;
   border: none;

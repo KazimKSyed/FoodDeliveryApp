@@ -12,13 +12,20 @@ export class AppComponent implements OnInit{
 private elementRef:ElementRef
   )
   {}
-  ngOnInit(){}
+  ngOnInit(){
+
+    
+  }
 
   ngAfterViewInit(){
     var style = document.createElement('link');
     style.type = 'text/css';
     style.href='./assets/css/style.css';
+    
     style.rel='stylesheet';
+   
     this.elementRef.nativeElement.appendChild(style);
   }
+
+ 
 }
